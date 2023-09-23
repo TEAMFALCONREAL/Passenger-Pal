@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXTONMAP</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="Contact Us/contact.css"> -->
+  <script src="https://kit.fontawesome.com/badec3087d.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){emailjs.init("kf9IdsWxbtTRdvAGt");})();
+</script>
+  <script src="js/index.js" defer></script>
+</head>
+<body>
+  
+  <div class="overlay">
+    <!-- Navbar Section Starts -->
+    <header class="header">
+      <div class="logomain">
+        <a href="#"><img src="https://img.icons8.com/clouds/80/bus.png" alt="bus" class="logo"></a>
+        <div class="logo-text">Passenger Pal</div>
+      </div>
+      <nav class="navbar">
+          <a href="#discover" class="active">Discover</a>
+          <a href="#" class="active">Blog</a>
+          <a href="#" class="active">About Us</a>
+          <a href="#contact" class="active">Contact Us</a>
+          <a href="SignIn.html"><button class="btn">Sign In</button></a>
+        </ul>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    <div class="image">
+      <img src="assests/bg.jpg" alt="" srcset="" class="img">
+      <!-- <button type="button" class="btn">GET STARTED</button> -->
+      <div class="home">
+        <div class="box">
+          <label for="from">From</label>
+          <input type="text" name="from" id="from" placeholder="From Where">
+        </div>
+        <div class="box">
+          <button class="exchange">
+            <img width="32" height="32" src="https://img.icons8.com/windows/32/data-in-both-directions.png" alt="data-in-both-directions"/>
+          </button>
+          </div>
+        <div class="box">
+          <label for="to">To</label>
+          <input type="text" name="to" id="to" placeholder="Where To">
+        </div>
+        <div class="box">
+          <label for="from">Date</label>
+          <input type="date" name="date" id="date">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Navbar Section Ends -->
+  </div> 
+</body>
+</html>

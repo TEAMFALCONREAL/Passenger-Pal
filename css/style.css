@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=REM&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  color: black;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.header{
+  padding: 0.5rem 4.5%;
+  position: fixed;
+  top:0%;
+  left: 0%;
+  right: 0%;
+  z-index: 2000;
+  /* box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: #e7dacd; */
+  /* background: white; */
+  background: transparent;
+}
+.header .logomain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .logo{
+  height: 80px;
+  width: 80px;
+}
+.header .logo-text{
+  font-size: 33px;
+  padding-left: 20px;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 500;
+}
+.header .navbar a{
+  color: black;
+  font-size: 24px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.2s;
+  margin: 0 5px;
+  font-family: 'Roboto Slab', serif;
+}
+.header .navbar a:hover{
+  color: #DA1943;
+  background: transparent;
+}
+.navbar .btn{
+  padding-inline: 2rem;
+  border-radius: 1.5rem;
+  margin-left: 1.1rem;
+  border: 3px solid #4070F4;
+  background-color: transparent;
+  color: #DA1943;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border: 3px solid #DA1943;
+}
+.navbar .btn:hover{
+  background-color: #DA1943;
+  color: white;
+}
+#menu-btn{
+  font-size: 2.5rem;
+  border-radius: 0.5rem;
+  background: #eee;
+  color: var(--green);
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+.image{
+  width: 100vw;
+  height: 100vh;
+  background-color: #e7dacb;
+}
+
+.overlay .img{
+  width: 77vw;
+  height: 77vh;
+  margin-left: 12vw;
+  margin-top: 2rem;
+}
+
+.image .btn{
+  background-color: #d4ad5d;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.7rem 1.2rem 0.7rem 1.2rem;
+  font-size: 2rem;
+  margin-left: 41vw;
+  cursor: pointer;
+}
+
+.image .btn:hover{
+  background-color: #ce3c39;
+  color: white;
+}
+
+.home{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 110px;
+  width: 1250px;
+  margin: 0px 10vw;
+  background-color: #d4ad5d;
+  border: 2px solid black;
+  gap: 2rem;
+}
+
+.home .box{
+  display: flex;
+  flex-direction: column;
+  font-size: 28px;
+}
+
+.home .box input{
+  width: 200px;
+  height: 40px;
+  padding-left: 10px;
+  border: 2px solid black;
+  border-radius: 2rem;
+  padding-right: 5px;
+}
+
+.home .box input::placeholder{
+  padding-left: 10px;
+}
+
+.home .box .exchange{
+  border-radius: 50%;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border: black 2px solid;
+}
