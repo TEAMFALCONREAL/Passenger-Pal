@@ -11,7 +11,7 @@
   <script type="text/javascript">
     (function(){emailjs.init("kf9IdsWxbtTRdvAGt");})();
 </script>
-  <script src="js/index.js" defer></script>
+  <script src="js/index.js" defer type="module"></script>
 </head>
 <body>
   
@@ -23,11 +23,12 @@
         <div class="logo-text">Passenger Pal</div>
       </div>
       <nav class="navbar">
-          <a href="#discover" class="active">Discover</a>
-          <a href="#" class="active">Blog</a>
-          <a href="#" class="active">About Us</a>
-          <a href="#contact" class="active">Contact Us</a>
-          <a href="SignIn.html"><button class="btn">Sign In</button></a>
+          <a href="runningstatus.html" class="active">Running Status</a>
+          <a href="#" class="active">Common Routes</a>
+          <a href="about.html" class="active">About Us</a>
+          <a href="contact.html" class="active">Contact Us</a>
+          <a href="SignIn.html" id="sign-in"><button class="btn">Sign In</button></a>
+          <a id="log-out"><button class="btn lgout">Log out</button></a>
         </ul>
       </nav>
       <div id="menu-btn" class="fas fa-bars"></div>
@@ -38,24 +39,28 @@
       <div class="home">
         <div class="box">
           <label for="from">From</label>
-          <input type="text" name="from" id="from" placeholder="From Where">
+          <input type="text" name="from" id="from" placeholder="From Where" required> 
         </div>
         <div class="box">
           <button class="exchange">
-            <img width="32" height="32" src="https://img.icons8.com/windows/32/data-in-both-directions.png" alt="data-in-both-directions"/>
+            <img width="32" height="32" src="https://img.icons8.com/windows/32/data-in-both-directions.png" alt="data-in-both-directions" id="img-exchange"/>
           </button>
           </div>
         <div class="box">
           <label for="to">To</label>
-          <input type="text" name="to" id="to" placeholder="Where To">
+          <input type="text" name="to" id="to" placeholder="Where To" required>
         </div>
         <div class="box">
           <label for="from">Date</label>
-          <input type="date" name="date" id="date">
+          <input type="date" name="date" id="date" required>
+        </div>
+        <div class="box2">
+          <button class="search-btn">
+            <img width="28" height="28" src="https://img.icons8.com/ios/28/search--v1.png" alt="search--v1" id="search-btn"/> SEARCH
+          </button>
         </div>
       </div>
     </div>
-    
     <!-- Navbar Section Ends -->
   </div> 
 </body>

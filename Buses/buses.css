@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=REM&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', arial;
+  box-sizing: border-box;
+  color: black;
+}
+
+#main_body{
+    width: 100vw;
+    height: 500px;
+    background-color: #dae6f5;
+}
+
+.p_bus{
+    padding-top: 2rem;
+    font-size: 32px;
+    text-align: center;
+}
+
+.a_class{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    text-align: center;
+    gap: 2rem;
+}
+
+.a_img{
+    height: 60px;
+    width: 60px;
+}
+
+.a2_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.a2_img{
+    height: 300px;
+    width: 500px;
+}
+
+#buses{
+    margin-top: 0rem;
+}
+
+
+
+.bg-c{
+    background-color: #cee8bb;
+    border: 2px solid antiquewhite;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 23vw;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    font-size: larger;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(86, 214, 86);
+    border: 2px solid rgb(86, 214, 86);
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.SmolD{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 8rem;
+    margin: 10px;
+
+}
